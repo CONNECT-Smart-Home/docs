@@ -1,0 +1,43 @@
+<head>
+    <title>Block WEB interface</title>
+    <meta http-equiv="Content-Type" content="text/plain">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Access-Control-Allow-Headers" content="Content-Type" />
+    <meta http-equiv="Access-Control-Allow-Methods" content="GET, POST, PUT" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,600,800,900" rel="stylesheet">
+    </head>
+    <font face="arial" style="src:local"></font>
+    <style type="text/css">body{font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:lighter;color:#b5b9bd;background:radial-gradient(at bottom,#203030,#111);-webkit-user-select:none}.logo{fill:#fff;margin:auto;width:max(20vw,20vh);height:max(20vw,20vh);z-index:6;position:relative;padding-top:calc(40vh - max(10vw,10vh))}.logo_svg{filter:drop-shadow(0 0 50px #fffa) drop-shadow(-10px 0 80px #f0fa) drop-shadow(10px 0 80px #0ffa)}.logo_text{text-align:center;font-weight:bold;font-size:max(3vw,3vh);color:#fff;position:fixed;width:100vw;bottom:5vh;z-index:7}.star{--twinkle-duration:"";--twinkle-delay:"";--star-size:"";position:absolute;width:var(--star-size);height:var(--star-size);background:#fff;border-radius:50%;animation:twinkle infinite alternate;animation-duration:var(--twinkle-duration);animation-delay:var(--twinkle-delay);z-index:5}@keyframes twinkle{from{transform:scale(1)}to{transform:scale(1.5);box-shadow:0 0 5px .5px rgba(150,150,150,0.6)}}</style>
+    <body>
+    <div class="star"></div>
+    <div class="logo">
+    <svg class="logo_svg" version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 600 500" preserveAspectRatio="xMidYMid meet">
+    <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" stroke="none">
+    <path d="M1695 4960 c-395 -62 -713 -330 -829 -700 -58 -182 -58 -398 0 -580
+            64 -204 160 -338 372 -521 25 -21 42 -44 42 -57 0 -12 -126 -365 -281 -784
+            -198 -539 -288 -769 -304 -784 -13 -13 -42 -23 -72 -27 -179 -21 -386 -159
+            -482 -320 -78 -132 -111 -291 -91 -437 22 -157 82 -280 191 -390 270 -274 708
+            -274 978 0 149 150 219 355 191 560 -19 140 -66 245 -158 358 -41 50 -47 62
+            -46 102 2 53 554 1558 579 1576 8 6 58 14 110 17 52 4 136 16 186 28 55 13
+            103 18 122 15 28 -6 82 -71 417 -498 212 -270 389 -501 394 -514 8 -19 2 -32
+            -31 -76 -141 -185 -213 -368 -243 -620 -22 -183 23 -419 114 -608 135 -277
+            361 -482 661 -599 111 -44 287 -75 420 -75 133 0 309 31 420 75 296 115 522
+            318 654 587 67 136 99 248 121 425 29 225 -52 538 -191 744 -72 106 -136 177
+            -244 266 -39 32 -80 66 -92 77 -13 10 -23 28 -23 40 0 29 328 890 347 912 9
+            10 37 19 72 23 235 25 401 104 553 263 157 164 231 351 231 582 0 231 -74 418
+            -231 582 -168 176 -366 261 -607 261 -241 0 -439 -85 -607 -261 -157 -164
+            -231 -351 -231 -582 0 -235 72 -412 238 -590 47 -50 85 -100 85 -110 0 -28
+            -330 -892 -349 -914 -14 -16 -25 -17 -84 -11 -115 11 -401 -34 -480 -76 -48
+            -26 -59 -14 -462 499 -247 316 -391 507 -393 525 -3 20 6 43 31 81 263 397
+            207 923 -136 1253 -188 182 -420 279 -682 288 -66 2 -147 0 -180 -5z"/>
+    </g>
+    </svg>
+    </div>
+    <div class="logo_text">
+    CONNECT 3.0
+    </div>
+    </body>
+    <script type="text/javascript">/*<![CDATA[*/const RECONNECT_CNT=10;const REQUEST_TMOUT=400;const INTRFCE_V='4.0';const $el=document.body;const genRandomNumber=(min,max)=>{return Math.random()*(max-min)+min;}
+    const genStar=()=>{const star=document.createElement("div");star.classList.add("star");let x=genRandomNumber(1,$el.offsetWidth);let y=genRandomNumber(1,$el.offsetHeight);const{style}=star;style.left=Math.floor(x)+"px";style.top=Math.floor(y)+"px";style.setProperty("--star-size",genRandomNumber(1,3)+"px");style.setProperty("--twinkle-duration",Math.ceil(genRandomNumber(1,5))+"s");style.setProperty("--twinkle-delay",Math.ceil(genRandomNumber(1,5))+"s");return star;}
+    for(let index=0;index<50;index++){$el.append(genStar());}/*]]>*/</script>
+    </html>
