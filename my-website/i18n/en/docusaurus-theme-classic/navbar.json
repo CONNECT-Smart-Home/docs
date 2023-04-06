@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "CONNECT Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Get started": {
+    "message": "Get started",
+    "description": "Navbar item with label Get started"
+  },
+  "item.label.to CONNECT Site": {
+    "message": "to CONNECT Site",
+    "description": "Navbar item with label to CONNECT Site"
+  }
+}

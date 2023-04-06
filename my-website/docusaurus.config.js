@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en']//, 'ru'],
+    locales: ['en', 'ru'],
   },
 
   presets: [
@@ -106,6 +106,10 @@ const config = {
               {
                 label: 'Instagram',
                 href: 'https://www.instagram.com/yoctoconnect',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/connectsmarthome',
               },
             ],
           },

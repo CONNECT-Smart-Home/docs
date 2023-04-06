@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Blocks": {
+    "message": "Blocks",
+    "description": "The label for category Blocks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blocks.link.generated-index.description": {
+    "message": "Full info about CONNECT Blocks. Technical data, documentation, API.",
+    "description": "The generated-index page description for category Blocks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Examples": {
+    "message": "Examples",
+    "description": "The label for category Examples in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Examples.link.generated-index.description": {
+    "message": "The most important CONNECT cases.",
+    "description": "The generated-index page description for category Examples in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Lighting": {
+    "message": "Lighting",
+    "description": "The label for category Lighting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Lighting.link.generated-index.description": {
+    "message": "About control of different light types.",
+    "description": "The generated-index page description for category Lighting in sidebar tutorialSidebar"
+  }
+}

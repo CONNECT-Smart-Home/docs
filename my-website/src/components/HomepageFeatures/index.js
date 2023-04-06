@@ -5,33 +5,36 @@ import Integrations from '../../../static/img/Integrations.png';
 import Configurator from '../../../static/img/Configurator.png';
 import Blocks from '../../../static/img/Blocks.png';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 const FeatureList = [
   {
-    title: 'Compact & technological',
+    title: <Translate>Compact & technological</Translate>,
     Svg: Blocks,
     description: (
       <>
-        Full of technologies in each mm².
+        <Translate>Full of technologies in each mm².
         High density of possibilities in compact dimensions.
+        </Translate>
       </>
     ),
   },
   {
-    title: 'Unlimited integrations',
+    title: <Translate>Unlimited integrations</Translate>,
     Svg: Integrations,
     description: (
       <>
-        Wide standards, interfaces and APIs supporting - unlimited integration abilities.
+        <Translate>Wide standards, interfaces and APIs supporting - unlimited integration abilities.</Translate>
       </>
     ),
   },
   {
-    title: 'Free cross-platform software',
+    title: <Translate>Free cross-platform software</Translate>,
     Svg: Configurator,
     description: (
       <>
-        Configurator is the only one soft you need for your CONNECT Smart home configuring.
-        Windows/macOS/Linux
+        <Translate>Configurator is the only one soft you need for your CONNECT Smart home configuring.
+        Windows/macOS/Linux</Translate>
       </>
     ),
   },

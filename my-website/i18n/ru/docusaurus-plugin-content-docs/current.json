@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Blocks": {
+    "message": "Блоки CONNECT",
+    "description": "The label for category Blocks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blocks.link.generated-index.description": {
+    "message": "Полная информация о блоках CONNECT. Технические данные, документация, API",
+    "description": "The generated-index page description for category Blocks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Examples": {
+    "message": "Примеры",
+    "description": "The label for category Examples in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Examples.link.generated-index.description": {
+    "message": "Наиболее распространённые кейсы применения CONNECT.",
+    "description": "The generated-index page description for category Examples in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Lighting": {
+    "message": "Освещение",
+    "description": "The label for category Lighting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Lighting.link.generated-index.description": {
+    "message": "Всё об управлении светом в Умном доме CONNECT.",
+    "description": "The generated-index page description for category Lighting in sidebar tutorialSidebar"
+  }
+}
