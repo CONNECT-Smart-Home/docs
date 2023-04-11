@@ -8,25 +8,25 @@ Let's discover **CONNECT** Smart Home.
 
 ## 📃 What is CONNECT
 
-**CONNECT** is the professional automation system which builds on the main controller and different peripheral devices (actuators and sensors) like:
-- Dimmers
-- LED drivers
-- Interfaces
-- Analog and digital inputs
-- Relays
+**CONNECT** is the professional automation system which builds on the [main controller Y1](/docs/blocks/y1) and different peripheral devices (actuators and sensors) like:
+- Dimmers [DT1](/docs/blocks/dt1)
+- LED drivers [W4](/docs/blocks/w4)
+- Interfaces [RS485](/docs/blocks/rs485), [DMX](/docs/blocks/dmx)
+- Analog and digital inputs [DI4](/docs/blocks/di4), [DI4 OC](/docs/blocks/di4oc)
+- Relays [R1](/docs/blocks/r1), [R8](/docs/blocks/r8)
 - Environment sensors
 - Security sensors
 - Wall switches and pannels
 
 ...and other blocks, devices and functional units.
 
-## 🫶 Advantages of CONNECT
+## 🩶 Advantages of CONNECT
 
 **CONNECT** is the widely scalable system which allows to connect **not only our own** peripheral blocks but a lot of **third-part devices** and services.
 
 ![CONNECT Smart home integrations](/img/Integrations_w.png)
 
-It's a new approach in home automation bored on a peak of IoT evolution, and it allows to **unite different devices and services** from different vendors with different interfaces and APIs in the **single automation system**.
+It's a new approach in home automation was born on a peak of IoT evolution, and it allows to **unite different devices and services** from different vendors with different interfaces and APIs in the **single automation system**.
 
 
 ## 💻 Software
