@@ -6,8 +6,8 @@ import TabItem from '@theme/TabItem';
 Single-channel triac dimmer
 
 ### 💎 Possibilities
-- brightness control
-- Works whith any 230 VAC loads with dimming supporting
+- Brightness control
+- Works with any 230 VAC loads with dimming supporting
 - Up to 700 W load per channel
 
 ![DT1](/img/blocks_photo/DT1_L.jpg)
@@ -181,27 +181,27 @@ Block outputs are controlled by sending an HTTP GET request.
 The network parameters of the unit are configured using the CONNECT Configurator software
 :::
 
-- The structure of HTTP GET requests for writing a value to a register
+- The structure of HTTP `GET` requests for writing a value to a register
 
 |Header |Ip address of the block| Team | Separator |Register number | Separator | Value|
 |-|-|-|-|-|-|-|
 |http:// |192.168.130.150| /set| _ |13| _| 1|
 In the example shown, `http://192.168.150.150/set_13_1` is set to "1" in block register 13.
 
-- Structure of HTTP GET requests for reading block register value
+- Structure of HTTP `GET` requests for reading block register value
 
 |Header |Ip address of the block| Team | Separator |Register number |
 |-|-|-|-|-|
 |http:// |192.168.130.150| /state |_ |13|
 In the example shown `http://192.168.130.150/state_13`, the block register value 13 is requested.
 
-**The structure of the block response page to a GET request**
+**The structure of the block response page to a `GET` request**
 
 The body of the page (between the `<body>` tags) contains:
 ```
-Control=”13″ Value=”1″
+Control=″13″ Value=″1″
 ```
-In the example shown, the block returned an HTML page with the text content `Control=”13” Value=”1”`, which means that register 13 of the block is set to '1'.
+In the example shown, the block returned an HTML page with the text content `Control=″13″ Value=″1″`, which means that register 13 of the block is set to '1'.
 
 </TabItem>
 </Tabs>

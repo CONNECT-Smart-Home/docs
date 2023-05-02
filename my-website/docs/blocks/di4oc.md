@@ -173,28 +173,28 @@ Block outputs are controlled by sending an HTTP GET request.
 The network parameters of the unit are configured using the CONNECT Configurator software
 :::
 
-- **Structure of HTTP GET requests for reading block register value**
+- **Structure of HTTP `GET` requests for reading block register value**
 
 |Header |Ip address of the block| Team | Separator |Register number |
 |-|-|-|-|-|
 |http:// |192.168.130.150| /state |_ |13|
 In the example shown `http://192.168.130.150/state_13`, the block register value 13 is requested.
 
-**The structure of the block response page to a GET request**
+**The structure of the block response page to a `GET` request**
 
 The body of the page (between the `<body>` tags) contains:
 ```
-Control=”13″ Value=”1″
+Control=″13″ Value=″1″
 ```
-In the example shown, the block returned an HTML page with the text content `Control=”13” Value=”1”`, which means that register 13 of the block is set to '1'.
+In the example shown, the block returned an HTML page with the text content `Control=″13″ Value=″1″`, which means that register 13 of the block is set to '1'.
 
 - **Structure of UDP package transmitted by block when the value in the register is changing**
 
 The text of the UDP package contains:
 ```
-Control=”2″ Value=”1″
+Control=″2″ Value=″1″
 ```
-In the example shown, the block sent an UDP package with the text content `Control=”2” Value=”1”`, which means that value in the register 2 was changed to '1'.
+In the example shown, the block sent an UDP package with the text content `Control=″2″ Value=″1″`, which means that value in the register 2 was changed to '1'.
 
 
 </TabItem>

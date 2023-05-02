@@ -20,7 +20,7 @@ Let's discover **CONNECT** Smart Home.
 
 ...and other blocks, devices and functional units.
 
-## 🩶 Advantages of CONNECT
+## 👌 Advantages of CONNECT
 
 **CONNECT** is the widely scalable system which allows to connect **not only our own** peripheral blocks but a lot of **third-part devices** and services.
 
