@@ -1,2 +1,2 @@
-# docs
-CONNECT Smart Home Documentation
+# CONNECT Docs
+**CONNECT** Smart Home Documentation
