@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CONNECT Smart Home.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CONNECT Smart home Docs.`,
       },
       prism: {
         theme: lightCodeTheme,

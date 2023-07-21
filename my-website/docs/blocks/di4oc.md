@@ -175,7 +175,7 @@ The network parameters of the unit are configured using the CONNECT Configurator
 
 - **Structure of HTTP `GET` requests for reading block register value**
 
-|Header |Ip address of the block| Team | Separator |Register number |
+|Header |Ip address of the block| Command | Separator |Register number |
 |-|-|-|-|-|
 |http:// |192.168.130.150| /state |_ |13|
 In the example shown `http://192.168.130.150/state_13`, the block register value 13 is requested.
