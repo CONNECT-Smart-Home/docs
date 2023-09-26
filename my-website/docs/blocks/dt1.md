@@ -1,9 +1,13 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
 
 # DT1 Dimmer triac
 
 Single-channel triac dimmer
+
+<PrintPage> </PrintPage>
 
 ### 💎 Possibilities
 - Brightness control
@@ -205,3 +209,6 @@ In the example shown, the block returned an HTML page with the text content `Con
 
 </TabItem>
 </Tabs>
+
+
+<PrintPage> </PrintPage>

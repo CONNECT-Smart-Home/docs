@@ -1,6 +1,11 @@
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
+
 # BUS Repeater
 
 RS485 BUS repeater for increasing count of bus segments
+
+<PrintPage> </PrintPage>
 
 ### 💎 Possibilities
 - Isolated RS485 interface
@@ -27,3 +32,5 @@ BUS Repeater block intended for isolation and increasing count of devices at RS4
 ## 👁‍🗨 How to connect
 
 Soon...
+
+<PrintPage> </PrintPage>

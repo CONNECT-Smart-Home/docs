@@ -1,6 +1,11 @@
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
+
 # BUS Repeater
 
 Повторитель RS485 для увеличения количества сегментов шины 
+
+<PrintPage> </PrintPage>
 
 ### 💎 Возможности
 - Изолированный интерфейс RS485
@@ -26,3 +31,5 @@
 ## 👁‍🗨 Схемы подключений блока
 
 Скоро...
+
+<PrintPage> </PrintPage>

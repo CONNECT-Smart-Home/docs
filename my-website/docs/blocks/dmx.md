@@ -1,9 +1,13 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
 
 # DMX Interface
 
 One-channel DMX512 interface extention
+
+<PrintPage> </PrintPage>
 
 ### 💎 Possibilities
 - Integration any DMX512 devices up to 64 per block
@@ -95,3 +99,6 @@ Soon...
 
 </TabItem>
 </Tabs>
+
+
+<PrintPage> </PrintPage>

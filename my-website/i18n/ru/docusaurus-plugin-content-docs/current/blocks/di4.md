@@ -1,10 +1,14 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
 
 
 # DI4 Цифровые входы
 
 4-канальный блок цифровых входов сухой контакт
+
+<PrintPage> </PrintPage>
 
 ### 💎 Возможности
 - Работает с любыми переключателями, датчиками и т.п. с выходом типа сухой контакт
@@ -219,3 +223,5 @@ Control=″2″ Value=″1″
 
 </TabItem>
 </Tabs>
+
+<PrintPage> </PrintPage>

@@ -1,9 +1,13 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
 
 # DT1 Диммер симисторный
 
 Одноканальный симисторный диммер
+
+<PrintPage> </PrintPage>
 
 ### 💎 Возможности
 - Плавная регулировка яркости
@@ -203,3 +207,5 @@ Control=″13″	Value=″1″
 
 </TabItem>
 </Tabs>
+
+<PrintPage> </PrintPage>

@@ -1,10 +1,14 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
 
 
 # DI4 Digital inputs
 
 Four-channel digital inputs block
+
+<PrintPage> </PrintPage>
 
 ### 💎 Possibilities
 - Works with any dry contact switches, sensors etc.
@@ -200,3 +204,6 @@ In the example shown, the block sent an UDP package with the text content `Contr
 
 </TabItem>
 </Tabs>
+
+
+<PrintPage> </PrintPage>

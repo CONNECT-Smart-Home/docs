@@ -1,9 +1,13 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
 
 # DMX Интерфейс
 
 Одноканальный блок DMX512
+
+<PrintPage> </PrintPage>
 
 ### 💎 Возможности
 - Интеграция любых устройств DMX512 до 64 на блок
@@ -95,3 +99,5 @@ I_aaa_stateDMX_1_ddd
 
 </TabItem>
 </Tabs>
+
+<PrintPage> </PrintPage>

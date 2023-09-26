@@ -1,9 +1,9 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import Integrations from '../../../static/img/Integrations.png';
-import Configurator from '../../../static/img/Configurator.png';
-import Blocks from '../../../static/img/Blocks.png';
+import Integrations from '../../../static/img/Integrations_1.png';
+import Configurator from '../../../static/img/Configurator_1.png';
+import Blocks from '../../../static/img/Blocks_1.png';
 
 import Translate, {translate} from '@docusaurus/Translate';
 

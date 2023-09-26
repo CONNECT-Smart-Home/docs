@@ -1,9 +1,13 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import PrintImg from '@site/src/components/print_img_button';
+import PrintPage from '@site/src/components/print_page_button';
 
 # DI4 OC Open collector inputs
 
 Four-channel digital open-collector / open-drain inputs block 
+
+<PrintPage> </PrintPage>
 
 ### 💎 Possibilities
 - Works with any open collector or open drain switches, sensors etc.
@@ -199,3 +203,6 @@ In the example shown, the block sent an UDP package with the text content `Contr
 
 </TabItem>
 </Tabs>
+
+
+<PrintPage> </PrintPage>

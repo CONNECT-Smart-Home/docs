@@ -293,5 +293,11 @@
   },
   "Full information for best Smart Home installers": {
     "message": "Вся информация для лучших инсталляторов Умного дома CONNECT"
+  },
+  "Print this scheme": {
+    "message": "Напечатать схему"
+  },
+  "Print / Download PDF Datasheet": {
+    "message": "Напечатать / Скачать PDF Datasheet"
   }
 }
