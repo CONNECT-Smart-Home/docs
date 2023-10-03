@@ -41,7 +41,11 @@ Our **free apps** and **free WEB Interfase** are automatically synchronized with
 By the way you can download apps from Google Play or App store and also try our demo WEB UI. 
 :::
 
+<div style={{textAlign: 'center'}}>
+
 ![App CONNECT Smart home](/img/App.png)
+
+</div>
 
 And yes, our soft is **free for integrators** and it also hasn't any simulated limitations like the count of projects, users, rooms, devices and other limits.
 

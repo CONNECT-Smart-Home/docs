@@ -17,7 +17,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title} {packageJson.version}</h1>
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <span className="hero_title_version">v.{packageJson.version}</span>
         <p className="hero__subtitle"><Translate>Full information for the best Smart Home installers</Translate> 😎</p>
         <div className={styles.buttons}>
           <Link

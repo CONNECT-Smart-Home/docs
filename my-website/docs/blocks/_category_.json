@@ -1,8 +1,6 @@
 {
-  "label": "Blocks",
+  "label": "Products",
   "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Full info about CONNECT Blocks. Technical data, documentation, API."
-  }
+  "collapsible": true,
+  "collapsed": false
 }

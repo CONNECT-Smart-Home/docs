@@ -83,7 +83,7 @@ RS485 setting registers.
 
 ** Correspondence of RS485 speed and value in register 203:
 
-| Meaning | Speed, baud/s |
+| Value | Speed, baud/s |
 |-|-|
 |3| 4800|
 |4| 9600|

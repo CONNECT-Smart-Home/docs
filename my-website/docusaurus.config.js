@@ -7,8 +7,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CONNECT Docs',
-  tagline: 'Full information for best Smart Home installers 😎',
+  tagline: 'Full information for the best Smart Home CONNECT installers. YoctoCONNECT.',
   favicon: 'img/favicon.png',
+
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom'),
+    require.resolve("@cmfcmf/docusaurus-search-local"),
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
+      },
+    ],
+  ],
 
   // Set the production url of your site here
   url: 'https://connect-smart-home.github.io/',
@@ -18,7 +32,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'CONNECT', // Usually your GitHub org/user name.
+  organizationName: 'YoctoCONNECT', // Usually your GitHub org/user name.
   projectName: 'connect-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -64,7 +78,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/logo.png',
       navbar: {
-        title: 'CONNECT Docs',
+        title: 'CONNECT',
         logo: {
           alt: 'CONNECT Smart Home logo',
           src: 'img/logo.png',
@@ -74,12 +88,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Get started',
+            label: 'GET STARTED',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://yoctoconnect.com',
-            label: 'to CONNECT Site',
+            label: 'to CONNECT site',
             position: 'right',
           },
           {
@@ -106,11 +120,7 @@ const config = {
               {
                 label: 'Instagram',
                 href: 'https://www.instagram.com/yoctoconnect',
-              },
-              {
-                label: 'Telegram',
-                href: 'https://t.me/connectsmarthome',
-              },
+              }
             ],
           },
           {
@@ -141,11 +151,23 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CONNECT Smart home Docs.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CONNECT Smart Home Docs.`,
       },
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        },
+        config: {
+          
+        }
       },
     }),
 };
