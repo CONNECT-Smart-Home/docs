@@ -14,13 +14,13 @@ const config = {
     require.resolve('docusaurus-plugin-image-zoom'),
     require.resolve("@cmfcmf/docusaurus-search-local"),
     [
-      '@docusaurus/plugin-sitemap',
+      '@docusaurus/plugin-content-docs',
       {
-        changefreq: 'weekly',
-        priority: 0.5,
-        ignorePatterns: ['/tags/**'],
-        filename: 'sitemap.xml',
-      },
+        id: 'docs-examples',
+        path: 'docs-examples',
+        routeBasePath: 'docs-examples',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
     ],
   ],
 
@@ -88,7 +88,19 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'GET STARTED',
+            label: 'PRODUCTS',
+          },
+          {
+            to: '/docs-examples/Intro',
+            label: 'EXAMPLES',
+            position: 'left',
+            activeBaseRegex: `/docs-examples/`,
+          },
+          {
+            to: '/faq/',
+            label: 'FAQ',
+            position: 'left',
+            activeBaseRegex: `/faq/`,
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
