@@ -1,3 +1,9 @@
+---
+tags:
+  - Dimmer
+  - Lighting
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import PrintImg from '@site/src/components/print_img_button';

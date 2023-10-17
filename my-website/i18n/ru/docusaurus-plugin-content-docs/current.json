@@ -26,5 +26,9 @@
   "sidebar.tutorialSidebar.category.Lighting.link.generated-index.description": {
     "message": "Всё об управлении светом в Умном доме CONNECT.",
     "description": "The generated-index page description for category Lighting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Products": {
+    "message": "Оборудование",
+    "description": "The label for category Products in sidebar tutorialSidebar"
   }
 }

@@ -10,5 +10,21 @@
   "item.label.to CONNECT Site": {
     "message": "to CONNECT Site",
     "description": "Navbar item with label to CONNECT Site"
+  },
+  "item.label.PRODUCTS": {
+    "message": "PRODUCTS",
+    "description": "Navbar item with label PRODUCTS"
+  },
+  "item.label.EXAMPLES": {
+    "message": "EXAMPLES",
+    "description": "Navbar item with label EXAMPLES"
+  },
+  "item.label.FAQ": {
+    "message": "FAQ",
+    "description": "Navbar item with label FAQ"
+  },
+  "item.label.to CONNECT site": {
+    "message": "to CONNECT site",
+    "description": "Navbar item with label to CONNECT site"
   }
 }

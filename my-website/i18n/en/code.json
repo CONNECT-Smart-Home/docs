@@ -290,5 +290,34 @@
   },
   "Configurator is the only one soft you need for your CONNECT Smart home configuring. Windows/macOS/Linux": {
     "message": "Configurator is the only one soft you need for your CONNECT Smart home configuring. Windows/macOS/Linux"
+  },
+  "Print this scheme": {
+    "message": "Print this scheme"
+  },
+  "Print / Download PDF Datasheet": {
+    "message": "Print / Download PDF Datasheet"
+  },
+  "Full information for the best Smart Home installers": {
+    "message": "Full information for the best Smart Home installers"
+  },
+  "cmfcmf/d-s-l.searchBar.placeholder": {
+    "message": "Search...",
+    "description": "Placeholder shown in the searchbar"
+  },
+  "cmfcmf/d-s-l.searchBar.clearButtonTitle": {
+    "message": "Clear",
+    "description": "Title of the button to clear the current search input"
+  },
+  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": {
+    "message": "Cancel",
+    "description": "Text of the button to close the detached search window"
+  },
+  "cmfcmf/d-s-l.searchBar.submitButtonTitle": {
+    "message": "Submit",
+    "description": "Title of the button to submit a new search"
+  },
+  "cmfcmf/d-s-l.searchBar.noResults": {
+    "message": "No results found.",
+    "description": "message shown if no results are found"
   }
 }

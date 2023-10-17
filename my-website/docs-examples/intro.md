@@ -2,34 +2,11 @@
 sidebar_position: 1
 ---
 
-# How to CONNECT
+# About examples
 
 Here are the automation examples and use cases of **CONNECT** Smart Home.
 
 You can easily try this examples in your own project. For that make the `FAST IMPORT` to your project.
-
-## 📃 What is FAST IMPORT?
-
-For import the example to your own project just make a four simple steps:
-
-1. **Go to section `📡 Fast import to your project`**
-
-2. **Just `copy` the text from code-block...**
-
-![Code export](/img/examples/code_export.png)
-
-
-``` jsx title="This is example of code-block"
-
-[{"this": is, "some": ["example", "code"]}, "you": "should", "to": {"copy"}]
-```
-
-3. **...and import it to your own CONNECT project via menu in the right top corner:**
-
-![Code import](/img/examples/node-red_import.png)
-
-4. **Done!**
-
 
 ## 👌 Integration of third party
 
@@ -51,7 +28,7 @@ Supported interfaces to communicate with our devices: **RS485, Ethernet, WiFi**.
 Full `APIs` for each **CONNECT** device are described in `🔌 API for integration into third-party systems` paragraph in [`Products`](/docs/intro/) section of the **CONNECT Docs** website.
 :::
 
-## 💻 Software to work
+## 💻 Software to work with CONNECT
 
 Free and cross-platform:
 
@@ -71,7 +48,7 @@ The kernel of our **CONNECT** Smart Home algorithm engine is Node-RED. It is eve
 
 
 :::tip
-Our **free apps** and **free WEB Interfase** are automatically synchronized with the system you are configuring. 
+Our **free apps** and **free WEB Interface** are automatically synchronized with the system you are configuring. 
 :::
 
 <div style={{textAlign: 'center'}}>
