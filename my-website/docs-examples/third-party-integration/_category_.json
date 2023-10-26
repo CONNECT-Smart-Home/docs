@@ -1,9 +1,9 @@
 {
-  "label": "Integration CONNECT into third party",
-  "position": 5,
+  "label": "Third party integration",
+  "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "About integration CONNECT into third party."
+    "description": "About integration of third party devices into CONNECT Smart Home."
   },
   "collapsible": true,
   "collapsed": false

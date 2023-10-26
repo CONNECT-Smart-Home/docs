@@ -38,13 +38,13 @@ Free and cross-platform:
 
 Only one software you need for configuring your **CONNECT** Smart Home is `CONNECT Configurator`. You can download its last version by [this link](https://yoctoconnect.com/pages/iglass-smart-home-free-software-downloads). 
 
-The kernel of our **CONNECT** Smart Home algorithm engine is Node-RED. It is event-driven, **low-code**, **user-friendly** visual programming and it's easy to understand both for **IT specialists** and for **electricians**. 
-
 <div style={{textAlign: 'center'}}>
 
 ![App CONNECT Smart home](/img/Configurator.png)
 
 </div>
+
+The kernel of our **CONNECT** Smart Home algorithm engine is Node-RED. It is event-driven, **low-code**, **user-friendly** visual programming and it's easy to understand both for **IT specialists** and for **electricians**. 
 
 
 :::tip

@@ -1,3 +1,3 @@
-# Control4
+# Zigbee
 
 Soon...
